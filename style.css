@@ -1,0 +1,121 @@
+/* 
+Dark Blue #283040
+Teal #29A699
+Light Orange #F2B138
+Orange #F28A2E
+Dark Orange #D95A2B
+*/
+body {
+  background-color: #DDF3E7;
+}
+
+.nav-link {
+  color: #29a699;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 6500;
+  font-style: normal;
+  font-size: 1.25em;
+}
+.nav-link:hover {
+  color: #f28a2e;
+}
+
+/* Carousel Text */
+.carousel-caption > h5 {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3em;
+  color: #29a699;
+}
+.carousel-caption > p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25em;
+  margin-top: -10px;
+  width: 350px;
+  color: white;
+}
+.carousel-caption {
+  text-align: left;
+  top: 30%;
+  left: 1%;
+  width: 350px;
+  height: 300px;
+  padding: 15px;
+  border-radius: 5px;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* CARDS */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 10px;
+  margin-top: 80px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #283040;
+  gap: 25px;
+  align-items: center;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+
+}
+.card-title {
+  display: flex;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #29a699;
+  font-size: 28px;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.card-body {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;  
+  color: #283040;
+  font-size: 16px;
+  border-top: 3px solid #F2B138;
+  border-right: 1px solid #F2B138;
+  /* box-shadow: 2px 2px 2px grey; */
+
+
+}
+.card-icon {
+  width: 40px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.card-icon:hover {
+  transform: rotate(-90deg);
+  
+}
+.card-image {
+  width: 400px;
+  box-shadow: 2px 2px 2px grey;
+  
+}
+
+.btn-primary {
+  background-color: #29a699;
+  border: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.btn-primary:hover {
+  background-color: #f28a2e;
+}
